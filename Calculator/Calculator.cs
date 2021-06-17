@@ -21,9 +21,9 @@ namespace Calculator
 
         public double Divide(int number1, int number2)
         {
-            if(number2 == 0)
+            if(number2 == 0)  // Não existe divisão por 0
             {
-                throw new Exception("Não existe divisão por 0");  // Não existe divisão por 0
+                throw new Exception("Não existe divisão por 0");
             }
             return number1 / number2;
         }

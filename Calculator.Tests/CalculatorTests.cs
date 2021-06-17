@@ -9,7 +9,7 @@ namespace Calculator.Tests
     public class CalculatorTests
     {
         [Fact]
-        public void Add_DeveRetornarASomaDosNumerosFornecidos()
+        public void Add_ShouldReturnTheSumOfTheProvidedNumbers()
         {
             // Arrange
             var calculator = new Calculator();
@@ -22,7 +22,7 @@ namespace Calculator.Tests
         }
 
         [Fact]
-        public void Subtract_DeveRetornarASubtracaoDosNumerosFornecidos()
+        public void Subtract_ShouldReturnTheSubtractionOftheProvidedNumbers()
         {
             var calculator = new Calculator();
 
@@ -32,7 +32,7 @@ namespace Calculator.Tests
         }
 
         [Fact]
-        public void Divide_DeveLancarExcecaoQuandoDividirPorZero()
+        public void Divide_ShouldThrowExceptionWhenDividingByZero()
         {
             var calculator = new Calculator();
 
